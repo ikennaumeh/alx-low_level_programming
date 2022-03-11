@@ -1,38 +1,19 @@
-# 0x00-hello_world
+This is the first C project, and it teaches you the fundamentals of compilation and C.
 
-## 0-preprocessor
-> a script that runs a C file through the preprocessor and save the result into another file.
-- The C file name is saved in the variable $CFILE.
-- The output is saved in the file c.
+File 0-preprocessor is a script that preprocesses a C file and saves the result to another file.
 
-## 1-compiler
-> a script that compiles a C file but does not link.
-- The C file name will be saved in the variable $CFILE
-- The output file should be named the same as the C file, but with the extension .o instead of .c.
+A script called File 1-compiler compiles a C file but does not link it.
 
-## 2-assembler
->  a script that generates the assembly code of a C code and saves it in an output file.
-- The C file name will be saved in the variable $CFILE
-- The output file should be named the same as the C file, but with the extension .s instead of .c
+A script called File 2-assembler creates the assembly code for a C program and saves it in an output file.
 
-## 3-name
-> a script that compiles a C file and creates an executable named cisfun.
-- The C file name will be saved in the variable $CFILE.
+File 3-name is a script that compiles a C file and produces the cisfun executable.
 
-## 4-puts.c
->  a C program that prints exactly ``` "Programming is like building a multilingual puzzle, ``` followed by a new line.
-- Use the function puts
+4-puts.c is a C program that prints exactly what it says. "Programming is like putting together a multilingual puzzle" followed by a new line.
 
-## 5-printf.c
->  a C program that prints ``` exactly with proper grammar, but the outcome is a piece of art, ```, followed by a new line.
-- Use the function printf
+5-printf.c is a C program that prints "correct grammar, but the end result is a work of art," followed by a new line.
 
-## 6-size.c
-> a C program that prints the size of various types on the computer it is compiled and run on.
+6-size.c is a C program that prints the size of various data types on the computer on which it was created and executed.
 
-### advanced
+The script File 100-intel produces the assembly code (Intel syntax) of a C code and saves it in an output file.
 
-## 100-intel
-> a script that generates the assembly code (Intel syntax) of a C code and saves it in an output file.
-- The C file name is saved in the variable $CFILE.
-- The output file is named the same as the C file, but with the extension .s instead of .c
+File 101-quote.c is a C program that outputs "and that piece of art is useful" - Dora Korpar, 2015-10-19" to the standard error, followed by a new line.
